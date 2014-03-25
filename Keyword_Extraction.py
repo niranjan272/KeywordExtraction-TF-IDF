@@ -1,20 +1,21 @@
 ########--------------------------------------####
+"""
 #MySQL db schema-
-# DATABASE NAME - global_words_freq
+DATABASE NAME - global_words_freq
 
-# Table global_words_freq_t -> "Stores words occurring in documents and their count."
-# Column names => 1) word(String) 2) no_of_doc_occurance(int)
+Table global_words_freq_t -> "Stores words occurring in documents and their count."
+Column names => 1) word(String) 2) no_of_doc_occurance(int)
 
-#Table document_count -> "Stores the number of documents have been evaluated." 
-#Column names => 1) count(int)
+Table document_count -> "Stores the number of documents have been evaluated." 
+Column names => 1) count(int)
 
 
 #Input
 1. A file containing a list of paths to training set
 2. A document for which you want the key-words
-#########-------------------------------------####
 
 
+"""
 
 #function to initiate count in document_count
 def ini_db():
